@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Health Reports</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1d1d1f;
+            background: #fff;
+            padding: 2rem 1rem;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+        h2 { font-size: 1.25rem; margin-top: 2rem; margin-bottom: 0.75rem; color: #1d1d1f; }
+        p, li { margin-bottom: 0.5rem; color: #333; }
+        ul { padding-left: 1.25rem; margin-bottom: 1rem; }
+        .meta { color: #6e6e73; font-size: 0.9rem; margin-bottom: 2rem; }
+        .meta p { color: #6e6e73; margin-bottom: 0.15rem; }
+        hr { border: none; border-top: 1px solid #e5e5e7; margin: 2rem 0; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.95rem; }
+        th, td { text-align: left; padding: 0.5rem 0.75rem; border-bottom: 1px solid #e5e5e7; }
+        th { font-weight: 600; color: #1d1d1f; }
+        td { color: #333; }
+        strong { color: #1d1d1f; }
+        .footer { margin-top: 2rem; font-size: 0.85rem; color: #6e6e73; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <div class="meta">
+        <p><strong>App:</strong> Health Reports</p>
+        <p><strong>Developer:</strong> Iniaki Boudiaf</p>
+        <p><strong>Effective Date:</strong> March 29, 2026</p>
+    </div>
+
+    <h2>1. Overview</h2>
+    <p>Health Reports is a free iOS app that generates PDF health reports from Apple Health data. This privacy policy explains what data the app accesses, how it's used, and your rights.</p>
+
+    <hr>
+
+    <h2>2. Data We Access</h2>
+    <p>The app requests <strong>read-only</strong> access to the following Apple Health categories:</p>
+    <table>
+        <thead>
+            <tr><th>Category</th><th>Examples</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Activity</td><td>Steps, distance, exercise minutes, flights climbed, calories</td></tr>
+            <tr><td>Heart</td><td>Heart rate, resting HR, HRV, blood pressure, VO2 Max</td></tr>
+            <tr><td>Sleep</td><td>Sleep duration and stage breakdown (deep, REM, core, awake)</td></tr>
+            <tr><td>Body</td><td>Weight, BMI, body fat percentage, height</td></tr>
+            <tr><td>Respiratory</td><td>Respiratory rate, blood oxygen saturation</td></tr>
+            <tr><td>Nutrition</td><td>Macronutrients, vitamins, minerals, water, caffeine</td></tr>
+            <tr><td>Mobility</td><td>Walking speed, step length, double support time</td></tr>
+            <tr><td>Running</td><td>Running power, stride length, ground contact time</td></tr>
+            <tr><td>Workouts</td><td>Activity type, duration, calories burned, distance</td></tr>
+            <tr><td>Lab &amp; Clinical</td><td>Blood glucose, insulin delivery</td></tr>
+            <tr><td>Other</td><td>Hearing levels, reproductive health metrics</td></tr>
+        </tbody>
+    </table>
+    <p>The app <strong>never writes</strong> to Apple Health. Access is read-only.</p>
+
+    <hr>
+
+    <h2>3. How Your Data Is Used</h2>
+    <p>Your health data is used for <strong>one purpose only</strong>: generating PDF reports on your device.</p>
+    <ul>
+        <li>Data is read from Apple HealthKit</li>
+        <li>Data is aggregated (averages, min/max, trends) on your device</li>
+        <li>A PDF report is rendered on your device</li>
+        <li>The PDF is saved locally to your device's storage</li>
+        <li>You choose when and how to share the PDF (AirDrop, email, etc.)</li>
+    </ul>
+
+    <hr>
+
+    <h2>4. Data Storage</h2>
+    <ul>
+        <li><strong>Report metadata</strong> (title, date range, selected metrics) is stored locally using SwiftData</li>
+        <li><strong>PDF files</strong> are stored in the app's sandboxed Documents directory</li>
+        <li><strong>User preferences</strong> (name, default report title) are stored locally via UserDefaults</li>
+        <li>All stored data can be deleted from the app's Settings screen</li>
+    </ul>
+
+    <hr>
+
+    <h2>5. What We Do NOT Do</h2>
+    <ul>
+        <li>We do <strong>not</strong> transmit health data to any server, cloud service, or third party</li>
+        <li>We do <strong>not</strong> collect analytics or usage telemetry</li>
+        <li>We do <strong>not</strong> use any third-party SDKs, trackers, or advertising frameworks</li>
+        <li>We do <strong>not</strong> sell, share, or monetize your data in any way</li>
+        <li>We do <strong>not</strong> require an account or login</li>
+        <li>We do <strong>not</strong> use cookies or web tracking</li>
+        <li>The app has <strong>no backend</strong> — there is no server to send data to</li>
+    </ul>
+
+    <hr>
+
+    <h2>6. Third-Party Services</h2>
+    <p>The app contains a single external link to "Buy Me a Coffee" for optional donations. This link opens in your browser and is subject to Buy Me a Coffee's own privacy policy. No data is shared with them from the app.</p>
+
+    <hr>
+
+    <h2>7. Data Sharing</h2>
+    <p>The app does not share your data automatically. You control all sharing:</p>
+    <ul>
+        <li>You choose to generate a report</li>
+        <li>You choose which metrics to include</li>
+        <li>You choose to share the PDF via the iOS share sheet</li>
+        <li>The recipient and method are entirely your choice</li>
+    </ul>
+
+    <hr>
+
+    <h2>8. Children's Privacy</h2>
+    <p>The app does not knowingly collect data from children under 13. The app accesses only data already stored in Apple Health by the user or their devices.</p>
+
+    <hr>
+
+    <h2>9. Data Retention &amp; Deletion</h2>
+    <ul>
+        <li>Health data is read on-demand and not cached beyond the current report generation</li>
+        <li>Saved reports (PDFs) persist until you delete them</li>
+        <li>You can delete all saved reports and preferences from Settings &gt; Clear All Data</li>
+        <li>Uninstalling the app removes all locally stored data</li>
+    </ul>
+
+    <hr>
+
+    <h2>10. Security</h2>
+    <ul>
+        <li>All data processing occurs on-device within iOS's security sandbox</li>
+        <li>No network connections are made for data processing</li>
+        <li>PDFs are stored in the app's private sandboxed directory</li>
+        <li>Apple's HealthKit permission system controls which data the app can access</li>
+    </ul>
+
+    <hr>
+
+    <h2>11. Your Rights</h2>
+    <p>You can:</p>
+    <ul>
+        <li>Revoke HealthKit access at any time via iOS Settings &gt; Health &gt; Data Access</li>
+        <li>Delete all saved reports from within the app</li>
+        <li>Delete the app entirely to remove all associated data</li>
+    </ul>
+
+    <hr>
+
+    <h2>12. Changes to This Policy</h2>
+    <p>If this policy is updated, the effective date at the top will change. Continued use of the app after changes constitutes acceptance of the revised policy.</p>
+
+    <hr>
+
+    <h2>13. Contact</h2>
+    <p>For questions or concerns about this privacy policy:</p>
+    <p><strong>Email:</strong> iniaki.boudiaf@gmail.com</p>
+
+    <p class="footer">This privacy policy applies to Health Reports version 1.0 and later.</p>
+</body>
+</html>
